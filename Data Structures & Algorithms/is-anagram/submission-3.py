@@ -12,6 +12,5 @@ class Solution:
                     del(s_dict[c])
             except KeyError:
                 return False
-        if s_dict == {}:
-            return True
+        return s_dict == {}
 
